@@ -95,3 +95,8 @@
 
 <h2>Example</h2>
 <p><code>(new backup)->filename( "SlavaNadejdin" )->db()->addTime()->sendTo( "info@example.com" )->findTo( "" )->saveTo( "tmp" )->zip()->deleteBackup();</code></p>
+
+
+<h2>Future</h2>
+<p>1. Adding features of password to zip archive</p>
+<p>2. Multi-sites creating backup and merge in one.</p>
